@@ -6,6 +6,7 @@ from post.models import Publicaciones
 class HomePageView(ListView):
 
     model=Publicaciones
+    template_name="home.html"
 
 
 
